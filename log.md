@@ -8,7 +8,7 @@
 
 **Link to work:** [Auth Django](https://github.com/rsip22/101/tree/master/100daysofcode/Python/auth_django)
 
-=========
+
 ### Day 1: June 19th, 2018.
 
 **Today's Progress**: I wrote a small script to visit the Django Girls website and get a list of cities that have hosted workshops. As of now, this list is exported to a txt file. 
