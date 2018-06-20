@@ -18,3 +18,9 @@ I wrote a small script to automate the login to a Django application and save to
 **Today's Progress**: I wrote a small script to visit the Django Girls website and get a list of cities that have hosted workshops. As of now, this list is exported to a txt file. I hope to work on exporting it to CSV and JSON next.
 
 **Link to work:** [Django Girls Locations](https://github.com/rsip22/101/tree/master/100daysofcode/Python/djangogirls_locations)
+
+### R1D2 - June 20th, 2018.
+
+**Today's Progress**: The script I wrote yesterday now exports the information from that list to a csv or to a JSON file. I used another module ([sys](https://docs.python.org/3/library/sys.html)) from Python. installed and used [PyLint](https://www.pylint.org) to check my code.
+
+**Link to work:** [Django Girls Locations](https://github.com/rsip22/101/tree/master/100daysofcode/Python/djangogirls_locations)

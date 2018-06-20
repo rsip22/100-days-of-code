@@ -16,3 +16,24 @@
 **Thoughts:**  Although there are other ways - probably *better ways* ([Requests](http://docs.python-requests.org/en/master/), [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/)) to do this task, I ended up using Selenium again because it is my focus to learn more about it. I didn't want to overwhelm the Django Girls server with my requests, so I copied the source-code for the events page in a html file. At first, I put it up in a Github repository, but then I realized that this might not be needed - everything worked just fine when when I specified a local address to be accessed by Selenium. When getting the data from the website, I made a mistake writing a loop within a loop that kept the program running forever and it took me some time to debug. That's why I didn't write more of the code and created the csv or JSON export as I intended. 
 
 **Link to work:** [Django Girls Locations](https://github.com/rsip22/101/tree/master/100daysofcode/Python/djangogirls_locations)
+
+### Day 2: June 20th, 2018.
+
+**Today's Progress**: 
+The script I wrote yesterday now exports the information from that list to a csv and to a JSON file. I played a bit and used another module ([sys](https://docs.python.org/3/library/sys.html)) from Python to specify the path for the JSON file to be saved (getting the current path). I installed and used [PyLint](https://www.pylint.org) to check my code. At first, I ran into this error:
+
+```
+E: 25, 0: Unable to import 'selenium' (import-error)
+E: 26, 0: Unable to import 'selenium' (import-error)
+```
+Which I solved by installing pylint with pipenv. After that, I got:
+
+```
+Your code has been rated at 10.00/10 (previous run: 7.62/10, +2.38)
+```
+
+**SUCCESS!** 
+
+**Thoughts:** To be able to write code that exports data to different formats is a very useful skill. I was bugged that for some reason I couldn't get the JSON file to be saved yesterday, but I guess I was too tired to realize I was missing the argument that specifies the file to be written in json.dump. Today, I came back with a fresh head and it wasn't hard to figure it out. I had to work on ensuring the names of the cities would be spelled correctly even when they had characters that are strange to the English language (like 'Wrocław', 'São José dos Campos' and 'Ado-Ekiti').      
+
+**Link to work:** [Django Girls Locations](https://github.com/rsip22/101/tree/master/100daysofcode/Python/djangogirls_locations)
