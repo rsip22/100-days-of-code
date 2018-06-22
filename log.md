@@ -37,3 +37,12 @@ Your code has been rated at 10.00/10 (previous run: 7.62/10, +2.38)
 **Thoughts:** To be able to write code that exports data to different formats is a very useful skill. I was bugged that for some reason I couldn't get the JSON file to be saved yesterday, but I guess I was too tired to realize I was missing the argument that specifies the file to be written in json.dump. Today, I came back with a fresh head and it wasn't hard to figure it out. I had to work on ensuring the names of the cities would be spelled correctly even when they had characters that are strange to the English language (like 'Wrocław', 'São José dos Campos' and 'Ado-Ekiti').      
 
 **Link to work:** [Django Girls Locations](https://github.com/rsip22/101/tree/master/100daysofcode/Python/djangogirls_locations)
+
+### Day 3: June 21th, 2018.
+
+**Today's Progress**: I made a slight improvement to the previous script and I started learning TDD with Python and Django. 
+
+**Thoughts:** I started reading 
+["Obey the testing goat" book](http://www.obeythetestinggoat.com/pages/book.html) and following the instructions. I read the first two chapters and I can already say that I quite enjoy the way things are explained in it. Of course, it sort of helps that I do know some Django already, but I didn't feel lost with new concepts such as functional tests and unit tests so far.  
+
+**Link to work:** [testing goat](https://github.com/rsip22/101/tree/master/100daysofcode/Python/testing_goat)

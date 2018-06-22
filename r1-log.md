@@ -19,8 +19,16 @@ I wrote a small script to automate the login to a Django application and save to
 
 **Link to work:** [Django Girls Locations](https://github.com/rsip22/101/tree/master/100daysofcode/Python/djangogirls_locations)
 
+
 ### R1D2 - June 20th, 2018.
 
 **Today's Progress**: The script now exports the data from that list to a csv or to a JSON file. I used another module ([sys](https://docs.python.org/3/library/sys.html)) from Python. installed and used [PyLint](https://www.pylint.org) to check my code.
 
 **Link to work:** [Django Girls Locations](https://github.com/rsip22/101/tree/master/100daysofcode/Python/djangogirls_locations)
+
+
+### R1D3 - June 21th, 2018.
+
+**Today's Progress**: I made a slight improvement to the previous script and I started learning TDD with Python and Django.
+
+**Link to work:** [testing goat](https://github.com/rsip22/101/tree/master/100daysofcode/Python/testing_goat)
