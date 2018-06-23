@@ -46,3 +46,11 @@ Your code has been rated at 10.00/10 (previous run: 7.62/10, +2.38)
 ["Obey the testing goat" book](http://www.obeythetestinggoat.com/pages/book.html) and following the instructions. I read the first two chapters and I can already say that I quite enjoy the way things are explained in it. Of course, it sort of helps that I do know some Django already, but I didn't feel lost with new concepts such as functional tests and unit tests so far.  
 
 **Link to work:** [testing goat](https://github.com/rsip22/101/tree/master/100daysofcode/Python/testing_goat)
+
+### Day 4: June 22th, 2018.
+
+**Today's Progress**: I kept studying TDD with Python and Django, following 1 and a half chapter of the book. 
+
+**Thoughts:** Today was hard to read the two chapters of the ["Obey the testing goat" book](http://www.obeythetestinggoat.com/pages/book.html) that I aim to. I did dedicate more than 2 hours to it and to coding, but I was interrupted a few times with community stuff, which meant going back to re-reading the same parts again to find the context of where I stopped. That is also why I'm commiting this after midnight (but before bed, so it definitely still counts as yesterday, right?). I'm quite enjoying learning about TDD with Django, taking each step to create the tests, fail them, and them write each bit of code to make them pass. I find it very interesting how each error gives us the next clue to the code that should be written next.  
+
+**Link to work:** [testing goat](https://github.com/rsip22/101/tree/master/100daysofcode/Python/testing_goat)

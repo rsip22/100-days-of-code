@@ -32,3 +32,10 @@ I wrote a small script to automate the login to a Django application and save to
 **Today's Progress**: I made a slight improvement to the previous script and I started learning TDD with Python and Django.
 
 **Link to work:** [testing goat](https://github.com/rsip22/101/tree/master/100daysofcode/Python/testing_goat)
+
+
+### R1D4 - June 22th, 2018.
+
+**Today's Progress**: I kept studying TDD with Python and Django, following 1 and a half chapter of the book.
+
+**Link to work:** [testing goat](https://github.com/rsip22/101/tree/master/100daysofcode/Python/testing_goat)
