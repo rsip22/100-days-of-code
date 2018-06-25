@@ -54,3 +54,19 @@ Your code has been rated at 10.00/10 (previous run: 7.62/10, +2.38)
 **Thoughts:** Today was hard to read the two chapters of the ["Obey the testing goat" book](http://www.obeythetestinggoat.com/pages/book.html) that I aim to. I did dedicate more than 2 hours to it and to coding, but I was interrupted a few times with community stuff, which meant going back to re-reading the same parts again to find the context of where I stopped. That is also why I'm commiting this after midnight (but before bed, so it definitely still counts as yesterday, right?). I'm quite enjoying learning about TDD with Django, taking each step to create the tests, fail them, and them write each bit of code to make them pass. I find it very interesting how each error gives us the next clue to the code that should be written next.  
 
 **Link to work:** [testing goat](https://github.com/rsip22/101/tree/master/100daysofcode/Python/testing_goat)
+
+### Day 5: June 23th, 2018.
+
+**Today's Progress**: I kept studying TDD with Python and Django. 
+
+**Thoughts:** Today I focused more on schematizing and writing down on my study notebook the things that I have been learning about TDD, to help grasp all the content.  
+
+**Link to work:** [testing goat](https://github.com/rsip22/101/tree/master/100daysofcode/Python/testing_goat)
+
+### Day 6: June 24th, 2018.
+
+**Today's Progress**: I kept studying TDD with Python and Django. I'm on chapter 5 of the book now. 
+
+**Thoughts:** Ugh, I got completely stuck on an error after I added the csrf_token to send the form. Instead of running the test properly, it started giving me a BrokenPipeError that I haven't found a way to get out of it. I have retraced all the steps twice and still can't find a mistake I did. I searched a lot on places like stackoverflow and the Django Documentation and still couldn't figure it out. I added allowed_hosts and it changed nothing. Maybe it's something with Django or Python 3.6? I'm wrapping things up here to see if I can figure it out when I come back with a fresh head.  
+
+**Link to work:** [testing goat](https://github.com/rsip22/101/tree/master/100daysofcode/Python/testing_goat)
