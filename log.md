@@ -70,3 +70,11 @@ Your code has been rated at 10.00/10 (previous run: 7.62/10, +2.38)
 **Thoughts:** Ugh, I got completely stuck on an error after I added the csrf_token to send the form. Instead of running the test properly, it started giving me a BrokenPipeError that I haven't found a way to get out of it. I have retraced all the steps twice and still can't find a mistake I did. I searched a lot on places like stackoverflow and the Django Documentation and still couldn't figure it out. I added allowed_hosts and it changed nothing. Maybe it's something with Django or Python 3.6? I'm wrapping things up here to see if I can figure it out when I come back with a fresh head.  
 
 **Link to work:** [testing goat](https://github.com/rsip22/101/tree/master/100daysofcode/Python/testing_goat)
+
+### Day 7: June 25th, 2018.
+
+**Today's Progress**: I kept studying TDD with Python and Django. I'm still on chapter 5 because yesterday I was stuck on the BrokenPipe error, which I solved today. Today, I also started working on: testing and writing models, processing POST request and doing redirects.   
+
+**Thoughts:** I redid all the steps from the previous chapter again, trying to figure out happened and to debug. So the BrokenPipe error actually changed not by adding {% csrf_token %}, it happened when I changed the time.sleep from 1 to 10. I went back to 1 and I finally, *finally* got the right error. I'm still on chapter 5, going to "Better Unit Testing Practice: Each Test Should Test One Thing".   
+
+**Link to work:** [testing goat](https://github.com/rsip22/101/tree/master/100daysofcode/Python/testing_goat)
